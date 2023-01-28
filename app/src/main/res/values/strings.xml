@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DZ_2_5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">Добавить</string>
+    <string name="edit_name">Введите имя</string>
+    <string name="edit_url">Введите URL</string>
+</resources>

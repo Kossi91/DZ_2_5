@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/dotaFragment">
+
+    <fragment
+        android:id="@+id/dotaFragment"
+        android:name="com.example.dz_2_5.ui.fragments.DotaFragment"
+        android:label="fragment_dota"
+        tools:layout="@layout/fragment_dota" >
+        <action
+            android:id="@+id/action_dotaFragment_to_deteilDotaFragment"
+            app:destination="@id/deteilDotaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deteilDotaFragment"
+        android:name="com.example.dz_2_5.ui.fragments.DeteilDotaFragment"
+        android:label="fragment_deteil_dota"
+        tools:layout="@layout/fragment_deteil_dota" />
+</navigation>
